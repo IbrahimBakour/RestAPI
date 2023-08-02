@@ -1,0 +1,33 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET  http://localhost:3000/subscribers/64c5463746ec139743375b10
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "sssad",
+    "subscribedToChannel": "IbraChannel"
+}
+
+
+###
+
+
+DELETE http://localhost:3000/subscribers/64c553696561f2f96693cdc6
+
+
+###
+
+
+PATCH http://localhost:3000/subscribers/64c55340945cceabf5b83996
+Content-Type: application/json
+
+{
+    "name": "New Name"
+}
